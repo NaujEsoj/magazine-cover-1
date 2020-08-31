@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.magazine-container {
+    /*border: 10px solid white;*/
+    width: 700px;
+    height: 900px;
+    background-image: url("images/elon.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.magazine-titles {
+    display: flex;
+    height: 120px;; /*?*/
+    align-items: center;
+}
+
+.title1 {
+/*  margin-top: 0px; como quitar espacio a fuente? */
+    margin-top: -10px;
+    font-size: 150px;
+
+}
+
+.title2 {
+    margin-left: -65px;
+    align-self: center;
+    justify-items: flex-start; /* mi tio por que no echa pa la izquierda?*/
+    font-size: 30px;
+    color: white;
+}
+
+.header1 {
+    font-size: 15px;
+}
+
+.title3 {
+    margin-left: 150px; /*peor herramienta para posicionar*/
+    margin-top: -10px;
+    text-align: center;
+    font-size: 40px;
+
+    justify-self: flex-end; /*tampoco*/
+    color: white;
+    line-height: 80%;
+}
+
+.title-description {
+    height: 20PX;
+    color: white;
+    font-size: 6px;
+    margin-left: 10px;
+}
+
+.description-text-container {
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.description-text-1 {
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.description-text-2 {
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+.blackline{
+    background-color: black;
+    font-size: 12px;
+}
+
+
+.number {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+
+    color: white;
+    margin-top: -50px;
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
+.text-right-1 {
+    margin-top: -20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-self: flex-end;
+    }
+
+.text-right-2 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.text-right-3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.text-left-1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.text-left-2 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.text-left-3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-items: flex-start;
+    border-bottom: 5px solid white; /*limitar borde*/
+}
+
+.main-title {
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text-1 {
+    margin-bottom: -38px;
+    font-size: 70px;
+    color: white;
+}
+
+.main-text-2 {
+    margin-bottom: -20px;
+    font-size: 150px;
+    color: white;
+}
+
+.main-text-3 {
+    font-size: 30px;
+    color: white;
+}
+
+.footer {
+margin-top: 60px;
+display: flex;
+flex-flow: column;
+justify-content: flex-end; /*nope*/
+align-items: flex-end;
+}
+
+
+.footer-text-1 {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-text-2 {
+    font-size: 15px;
+    color: white;
+}
+
+/* h1 h3 no differencia
+fuentes, com importarlas
+el jijueputa justify-self sirve pa 3 mierdas
+mejor p que h1?
